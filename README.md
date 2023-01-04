@@ -2,7 +2,8 @@
 
 [![Tech](https://skillicons.dev/icons?i=py)](https://skillicons.dev)
 
-Web scraping tool written in python to get articles news from dev.to
+Web scraping tool written in python to get articles news from dev.to <br />
+**DISCLAIMER: This tool can damage the website. Respect the rules and regulation of the website**
 
 ## Example
 
@@ -16,7 +17,7 @@ Inside `const.py` you can change:
 
 ```
 LIMIT=? # articles limit
-TOPIC=? # python | nextjs | ect...
+TOPIC=? # python | nextjs | etc...
 ```
 
 ## Installation
