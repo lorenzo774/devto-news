@@ -3,7 +3,7 @@
 [![Tech](https://skillicons.dev/icons?i=py)](https://skillicons.dev)
 
 Web scraping tool written in python to get articles news from dev.to <br />
-**DISCLAIMER: This tool can damage the website. Respect the rules and regulation of the website**
+**DISCLAIMER: This tool can damage the website. <br />Respect the rules and regulation of the website**
 
 ## Example
 
@@ -13,12 +13,14 @@ Web scraping tool written in python to get articles news from dev.to <br />
 
 ## How it works
 
-Inside `const.py` you can change:
+Run the scraper with:
 
 ```
-LIMIT=? # articles limit
-TOPIC=? # python | nextjs | etc...
+python src/main.py [topic?] [limit?]
 ```
+
+The default topic is `React`<br />
+You can set a limit for articles.
 
 ## Installation
 
@@ -26,10 +28,4 @@ TOPIC=? # python | nextjs | etc...
 
 ```
 pip install bs4
-```
-
-2. Run the app with:
-
-```
-python src/main.py
 ```
