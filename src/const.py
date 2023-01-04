@@ -1,5 +1,5 @@
 DEVTO_URL = "https://dev.to"
-TOPIC = "python"
+TOPIC = "react"
 SCRAPE_URL=f"{DEVTO_URL}/t/{TOPIC}"
 LIMIT=3
 # cn stands for `class name`

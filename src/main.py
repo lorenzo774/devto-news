@@ -20,6 +20,6 @@ r = requests.get(SCRAPE_URL) # get a response from the website
 soup = BeautifulSoup(r.text, "html.parser")
 articles = scrape_articles(soup, LIMIT)
 
-print(f'\n{"-" * 31} ⚛️ React articles {"-" * 31}')
+print(f'\n{"-" * 31} {TOPIC.capitalize()} articles {"-" * 31}')
 for article in articles:
     print(article)
