@@ -1,5 +1,6 @@
 DEVTO_URL = "https://dev.to"
-SCRAPE_URL="https://dev.to/t/react"
+TOPIC = "python"
+SCRAPE_URL=f"{DEVTO_URL}/t/{TOPIC}"
 LIMIT=3
 # cn stands for `class name`
 ARTICLE_CN="crayons-story__body"

@@ -16,7 +16,6 @@ def scrape_articles(html_soup: BeautifulSoup, limit: int) -> list:
         date = el.find("a", {"class": DATE_CN}).text
         yield Article(title, link, author, date)
 
-SCRAPE_URL = "https://dev.to/t/react"
 r = requests.get(SCRAPE_URL) # get a response from the website
 soup = BeautifulSoup(r.text, "html.parser")
 articles = scrape_articles(soup, LIMIT)
